@@ -14,8 +14,10 @@
   "description": "",
   "dependencies": {
     "@apollo/server": "^5.5.1",
+    "codemirror": "^6.0.2",
     "dataloader": "^2.2.3",
     "graphql": "^16.14.2",
+    "rehype": "github:rehypejs/rehype",
     "undici": "^7.28.0"
   },
   "devDependencies": {

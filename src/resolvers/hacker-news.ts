@@ -14,6 +14,7 @@ export const resolvers = {
       if (!topStoryIds.ok) {
         throw new GraphQLError('oops!')
       }
+      
       const storyIds: string[] = await topStoryIds.json()
       const storyDataResp = storyIds.map(async (id) => {
         const storyResp = await
